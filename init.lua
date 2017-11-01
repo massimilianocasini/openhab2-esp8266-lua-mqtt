@@ -10,7 +10,7 @@ function launch()
   print("Connected to WIFI!")
   print("IP Address: " .. wifi.sta.getip())
   -- Call our command file. Note: if you foul this up you'll brick the device!
-  dofile("soil.lua")
+  dofile("mqtt_gpio.lua")
  -- makeConn()
 end
  
